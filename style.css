@@ -1,0 +1,15 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+html{
+    scroll-behavior: smooth !important;
+}
+@media only screen and (min-width:460px){
+    #map{
+        height: 450px;
+        width: 400px;
+    }
+}
